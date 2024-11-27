@@ -61,6 +61,17 @@ java -jar target/chatbot-0.0.1-SNAPSHOT.jar
 
 The application will be accessible on `http://localhost:8080`.
 
+## Configuration
+
+- Copy the `application.properties.template` file to `application.properties`:
+  ```sh
+  cp application.properties.template application.properties
+  ```
+- Edit `application.properties` to add your credentials:
+  ```properties
+  amazon.cookie=YOUR_AMAZON_COOKIE_HERE
+  ```
+
 ## Swagger API Documentation
 
 Swagger UI is available to explore the API:
